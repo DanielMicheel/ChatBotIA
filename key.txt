@@ -1,0 +1,13 @@
+AIzaSyCFYZ6BtguwOk_BusMMd5loXiWcqkPp_wg
+
+export GEMINI_API_KEY=AIzaSyCFYZ6BtguwOk_BusMMd5loXiWcqkPp_wg
+
+
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCFYZ6BtguwOk_BusMMd5loXiWcqkPp_wg" \
+-H "Content-Type: application/json" \
+-X POST \
+-d '{
+  "contents": [{
+    "parts": [{"text": "Explain how AI works"}]
+  }]
+}'
